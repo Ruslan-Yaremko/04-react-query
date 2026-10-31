@@ -1,5 +1,7 @@
 import styles from "./ErrorMessage.module.css";
 
 export default function ErrorMessage() {
-  return <p className={styles.text}>There was an error, please try again...</p>;
+  return (
+    <p className={styles.error}>Something went wrong. Please try again.</p>
+  );
 }
